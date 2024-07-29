@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    
+}
+.search_bar{
+    margin: 0px 0 10px 0;
+    /* padding: 5px; */
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+    height: auto;
+}
+.search_bar input,button{
+    border: none;
+    height: 30px;
+    padding-left:5px ;
+    padding-top: 0;
+    border: 1px solid black;
+    /* border-radius: 5px; */
+}
+.search_bar input{
+    width: 274px;
+}
+.search_bar input:hover{
+    background-color: #e3e9f0;
+}
+.search_bar button{
+    width: 26px;
+    padding-left:6px;
+    background-color: #d2f3f3;
+}
+.search_bar div{
+    height: auto;
+    width: 300px;
+    padding: 5px;
+    ;
+}
+.search_bar .search p{
+    padding-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px 5px lightblue;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0;
+}
+th{
+    /* width: 100px; */
+    padding: 5px 0 5px 0;
+    font-size: large;
+    background-color: #5585b5;
+}
+td{
+    padding: 2px 5px ;
+    /* border: 1px dashed rgb(47, 172, 255); */
+}
+
+tr:nth-child(even){
+    background-color: #bae8e8;
+}
+tr:nth-child(odd){
+    background-color: #eaf6f6;
+}
+tr:nth-child(even):hover{
+    background-color: #9fc9c9;
+}
+tr:nth-child(odd):hover{
+    background-color: #c5d4d4;
+}
+.pofile_img img{
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 50%;
+    object-fit:contain;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    
+}
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 200px;
+    min-width: 150px;
+    height: auto;
+    background-color:#a4b9c4;
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+    border-radius: 6px;
+    z-index: 0;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    z-index: 2;
+}
+ul{
+    padding-left: 5px;
+    list-style-type: none;
+}
+.Expertise{
+    text-align: left;
+}
+.email a{
+    text-decoration: none;
+    color: black;
+}
+.email a:hover{
+    text-decoration: underline;
+    color: #1e90ff;
+}
+.phone{
+    font-size: smaller;
+    width: 122px;
+    
+}
+.phone a{
+    color: black;
+}
+.phone a:hover{
+    text-decoration: underline;
+    color: #1e90ff;
+}
+.select-edit-remove{
+    width: 175px;
+}
+.select-edit-remove a{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+.select-edit-remove a:hover{
+    text-decoration: underline;
+    color:#074481;
+}
